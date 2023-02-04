@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAppПр1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppПр1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.501,0.511">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button5" Content="" Margin="172,173,309,130" Click="Button_Click"/>
+        <Button x:Name="button2" Content="" Margin="172,42,309,261" Click="Button_Click"/>
+        <Button x:Name="button3" Content="" Margin="339,42,147,261" Click="Button_Click"/>
+        <Button x:Name="button8" Content="" Margin="172,303,309,0" Click="Button_Click"/>
+        <Button x:Name="button4" Content="" Margin="0,173,476,130" Click="Button_Click"/>
+        <Button x:Name="button1" Content="" Margin="0,42,476,261" Click="Button_Click"/>
+        <Button x:Name="button7" Content="" Margin="0,303,476,0" Click="Button_Click"/>
+        <Button x:Name="button6" Content="" Margin="339,174,147,130" Click="Button_Click"/>
+        <Button x:Name="button9" Content="" Margin="339,303,147,0" Click="Button_Click"/>
+        <Label Margin="581,303,0,81" InputScope="Default"/>
+        <Button x:Name="Sbros" Content="Сброс" Margin="524,42,10,332" RenderTransformOrigin="0.31,0.253" Click="Sbros_Click"/>
+        <Label x:Name="Lable1" Content="Label" Margin="519,156,10,228"/>
+    </Grid>
+</Window>
